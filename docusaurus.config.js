@@ -77,7 +77,8 @@ const config = {
         ],
       },
       prism: {
-        theme: darkCodeTheme
+        theme: darkCodeTheme,
+        additionalLanguages: ['lua']
       },
     }),
 };
