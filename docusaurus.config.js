@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Veiled',
   tagline: 'KVM hacking utility for LookingGlass',
-  url: 'https://github.com/veiled-lg',
+  url: 'https://veiled-lg.github.io ',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -15,7 +15,23 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'de'],
+    path: 'i18n',
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+        calendar: 'gregory',
+      },
+      de: {
+        label: 'Deutsch',
+        direction: 'ltr',
+        htmlLang: 'de-DE',
+        calendar: 'gregory',
+        path: 'de',
+      }
+    },
   },
 
   presets: [
@@ -58,6 +74,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {type: 'localeDropdown', position: 'right'},
         ],
       },
       prism: {
