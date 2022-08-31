@@ -13,7 +13,8 @@ Creates a new `CVar` `userdata` and sets the internal type to `u8[4]`.
 ## Syntax
 
 ```lua
-local aim_active = CVar.create_bool('aim_active', nil, 'Enables the aimbot', true);
+-- r: 255, g: 0, b: 0, a: 255
+local enemy_invis = CVar.create_color('color_enemy_invisible', nil, nil, 255, 0, 0);
 ```
 
 ## Parameters

@@ -8,12 +8,17 @@ Creates a new `CVar` `userdata` and sets the internal type to `int`.
 
 ## Declaration
 
-`.create_bool(name, weapon_based, description, value[, min, max])`
+`.create_int(name, weapon_based, description, value[, min, max])`
 
 ## Syntax
 
 ```lua
-local aim_active = CVar.create_bool('aim_active', nil, 'Enables the aimbot', true);
+local aim_time = CVar.create_int(
+  'aim_time',
+  nil,
+  'Determines the time in ms in which the Aimbot should be active',
+  0, 0, 10000
+);
 ```
 
 ## Parameters
