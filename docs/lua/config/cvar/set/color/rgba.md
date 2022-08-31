@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# set_color
+# Using rgba
 
 Sets the respective color channels.
 
