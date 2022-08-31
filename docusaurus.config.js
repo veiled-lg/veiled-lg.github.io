@@ -13,7 +13,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
-  i18n: {
+  /*i18n: {
     defaultLocale: 'en',
     locales: ['en', 'de'],
     path: 'i18n',
@@ -32,7 +32,7 @@ const config = {
         path: 'de',
       }
     },
-  },
+  },*/
 
   presets: [
     [
