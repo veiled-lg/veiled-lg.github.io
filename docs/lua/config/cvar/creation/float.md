@@ -13,7 +13,12 @@ Creates a new `CVar` `userdata` and sets the internal type to `float`.
 ## Syntax
 
 ```lua
-local aim_active = CVar.create_bool('aim_active', nil, 'Enables the aimbot', true);
+local aim_fov = CVar.create_float(
+  'aim_fov',
+   nil,
+  'Field of View in degrees',
+  2.5, 0, 180
+);
 ```
 
 ## Parameters

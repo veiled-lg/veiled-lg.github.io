@@ -13,7 +13,7 @@ Creates a new `CVar` `userdata` and sets the internal type to `char*`.
 ## Syntax
 
 ```lua
-local aim_active = CVar.create_bool('aim_active', nil, 'Enables the aimbot', true);
+local create_string = CVar.create_string('aim_key', nil, nil, 'mouse1');
 ```
 
 ## Parameters
