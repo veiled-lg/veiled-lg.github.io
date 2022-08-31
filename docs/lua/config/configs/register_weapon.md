@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # register_weapon
 
-Set `value` if the internal type is `boolean`, `number` or `string`.
+Registers a key-value pair (Id, Name) to get individual values of the `CVar` `userdata`.
 
 ## Declaration
 
