@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_veiled_lg_veiled_lg_github_io=self.webpackChunk_veiled_lg_veiled_lg_github_io||[]).push([[698],{440:e=>{e.exports=JSON.parse('{"title":"Color","slug":"/category/color","permalink":"/docs/category/color","navigation":{"previous":{"title":"Render","permalink":"/docs/category/render"},"next":{"title":"new","permalink":"/docs/category/new"}}}')}}]);
